@@ -1,11 +1,11 @@
 import React from 'react'
 
 const About = () => {
-    const image ="https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg?auto=compress&cs=tinysrgb&w=600"
+    const image ="/Developer activity.svg"
   return (
-    <section class="flex gap-5 my-12 mx-5  md:m-4  flex-col md:flex-row justify-center ">
+    <section class="flex gap-5 my-12   md:m-0 p-2  flex-col md:flex-row items-center justify-center ">
         <div className=' md:w-screem '>
-            <img src={image} className="w-screen rounded-lg " alt="" srcset="" />
+            <img src={image} className="w-screen md:h-[52rem] rounded-lg " alt="" srcset="" />
         </div>
         <div className=" flex-col justify-start items-start bg-cover h-64">
             <div>
