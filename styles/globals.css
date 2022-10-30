@@ -9,7 +9,9 @@ body {
   
 }
 
-
+.im{
+  background-image: url('/bgWhite.png');
+}
 
 @media (prefers-color-scheme: dark) {
   html {
