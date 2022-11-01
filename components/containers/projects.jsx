@@ -43,11 +43,11 @@ const projects = () => {
   ]
   const bgimage ='/bgWhite.png'
   return (
-    <section className='flex flex-col  justify-center items-center  bg-gradient-to-l md:bg-gradient-to-r from-gray-900 to-indigo-800 '>
+    <section className='flex flex-col p-8  justify-center items-center  bg-gradient-to-l md:bg-gradient-to-r from-gray-900 to-indigo-800 '>
         {/* <img src={bgimage} alt="" srcset="" /> */}
         <div className="text-center 6m- m-16">
-          <p className='font-bold'>My projects</p>
-          <h1 className=' text-2xl font-bold'>Lastest projects</h1>
+          <p className='text-gray-200 font-bold'>My projects</p>
+          <h1 className=' text-[4rem] font-bold'>Lastest projects</h1>
         </div>
         <motion.div    className='flex flex-wrap  items-center justify-center'>
         {
