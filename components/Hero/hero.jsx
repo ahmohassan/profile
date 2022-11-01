@@ -114,7 +114,7 @@ const sc ='/1.svg'
   },[inView])
   return (
     <>
-     <section ref={ref}  class=" flex py-16 md:p-32 md:m-0 lg:m-0 sm:m-2 flex-col-reverse md:flex-wrap justify-center items-center bg-gradient-to-r from-indigo-900 to-violet-500">
+     <section ref={ref}  class=" flex py-16 pt-36 md:p-32 md:m-0 lg:m-0  flex-col-reverse md:flex-wrap justify-center items-center bg-gradient-to-r from-indigo-900 to-gray-900">
         <div className=" md:flex-auto flex-col mt-10 md:flex-col md:items-start m-4  ">
           <motion.div animate={animation}>
             <h1 className='text-[42px] md:text-[54px] font-bold'>👋Hello There</h1>

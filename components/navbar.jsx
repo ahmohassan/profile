@@ -2,8 +2,8 @@ import React from 'react'
 
 const navbar = () => {
   return (
-    <div className='sticky top-0'>
-        <nav className=' bg-transparent px-2 shadow-2xl border-gray-200 sm:px-2.5 rounded dark:bg-transparent dark:shadow-2xl '>
+    <div className='sticky top-0 z-50'>
+        <nav className=' bg-transparent px-5 blo py-4 shadow-2xl  sm:px-2.5  dark:bg-primary dark:shadow-2xl '>
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <a href='/' className='flex items-center'>
                 <img src="https://flowbite.com/docs/images/logo.svg" class="my-1 mr-1 h-6 sm:h-9" alt="Flowbite Logo" />

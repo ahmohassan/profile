@@ -8,6 +8,9 @@ body {
     color: white;
   
 }
+image, img{
+  width: 100%;
+}
 
 .im{
   background-image: url('/bgWhite.png');
