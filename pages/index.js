@@ -4,6 +4,7 @@ import HeroSection from '../components/Hero/hero'
 import About from '../components/containers/About'
 import Projects from '../components/containers/projects'
 import Services from '../components/containers/services'
+import Contact from '../components/containers/contact'
 export default function Home() {
   return (
     <div className="bg-[URL('/bgWhite.png')]">
@@ -17,6 +18,7 @@ export default function Home() {
         <About/>
         <Projects/>
         <Services/>
+        <Contact/>
       {/* <main className="flex justify-center items-center text-2xl font-mono font-bold" >
         <h1>Somalia</h1>
       </main> */}

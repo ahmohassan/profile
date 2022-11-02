@@ -59,7 +59,11 @@ const projects = () => {
                 
                 
                
-                 <Link  className='bg-gray-900 hover:bg-white hover:text-gray-900 hover:shadow-lg rounded-lg m-4 py-2 px-5 font-bold ' href={person.imageurl} >👀 View Details</Link>
+                 <button  className='bg-gray-900 hover:bg-white hover:text-gray-900 hover:shadow-lg rounded-lg m-4 py-2 px-8 font-bold ' >
+                <Link  href={person.imageurl}>
+                   👀 View Details
+                </Link>
+                 </button>
               </div>
             </motion.div>
           ))
