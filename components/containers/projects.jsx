@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import Link from 'next/Link'
+// import Link from 'next/Link'
 const projects = () => {
   
   const data = [
@@ -60,9 +60,9 @@ const projects = () => {
                 
                
                  <button  className='bg-gray-900 hover:bg-white hover:text-gray-900 hover:shadow-lg rounded-lg m-4 py-2 px-8 font-bold ' >
-                <Link  href={person.imageurl}>
+                <a  href={person.imageurl}>
                    👀 View Details
-                </Link>
+                </a>
                  </button>
               </div>
             </motion.div>
