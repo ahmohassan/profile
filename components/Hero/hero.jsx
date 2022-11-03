@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import {motion,useAnimation} from 'framer-motion'
 import {useInView} from 'react-intersection-observer'
+import styles from '../../styles/Home.module.css'
 function hero() {
 const sc ='/1.svg'
   const {ref, inView} =useInView({threshold:0.2})
@@ -114,7 +115,7 @@ const sc ='/1.svg'
   },[inView])
   return (
     <>
-     <section ref={ref}  class=" flex py-16 pt-36 md:p-32 md:m-0 lg:m-0  flex-col-reverse md:flex-wrap justify-center items-center bg-gradient-to-r from-indigo-900 to-gray-900">
+     <section ref={ref}  class={` flex py-16 pt-36 md:p-32 md:m-0 lg:m-0  flex-col-reverse md:flex-wrap justify-center items-center bg-gradient-to-r from-indigo-900 to-gray-900 ${styles.backgroundIMG}`}>
         <div className=" md:flex-auto flex-col mt-10 md:flex-col md:items-start m-4  ">
           <motion.div animate={animation}>
             <h1 className='text-[42px] md:text-[54px] font-bold'>👋Hello There</h1>

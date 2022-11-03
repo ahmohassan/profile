@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "emailjs": "^4.0.1",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^7.6.2",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-intersection-observer": "^9.4.0"
+    "react-intersection-observer": "^9.4.0",
+    "sparkpost": "^2.1.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

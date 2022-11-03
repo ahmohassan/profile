@@ -17,7 +17,13 @@
       transparent 100%
     );
   }
-
+.backgroundIMG {
+  background-image: url('/img/banner-bg.png');
+  background-repeat: no-repeat;
+  background: cover;
+  width: 100%;
+  
+}
 
 .container {
   padding: 0 2rem;
@@ -133,6 +139,25 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .backgroundIMG{
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(219, 100%, 44%) 15%,
+      hsl(219, 100%, 50%) 35%,
+      hsla(220, 100%, 11%, 0.816) 75%,
+      hsla(218, 100%, 18%, 0.752) 80%,
+      transparent 1%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(218, 100%, 12%) 15%,
+      hsl(218, 91%, 9%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 10%
+    );
   }
 }
 
