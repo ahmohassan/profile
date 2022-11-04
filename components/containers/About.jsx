@@ -137,7 +137,7 @@ const About = () => {
                      <div className='flex flex-col   pr-5 '>
                         {/* <h1 className='text-[16px] md:text-[14px] my-2 font-bold'>What we doing in our customers?</h1> */}
                         <p className='text-[8px] mt-4 md:text-lg mr-4'>
-                        Providing direct customer support gives developers the opportunity to understand their products as customers see them. As a product matures, developers can begin to feel disengaged from it in its entirety. That’s because developers often work in silos, focusing only on the features they’re building individually.
+                           Providing direct customer support gives developers the opportunity to understand their products as customers see them. As a product matures, developers can begin to feel disengaged from it in its entirety. That’s because developers often work in silos, focusing only on the features they’re building individually.
                         </p>
                     </div>
                 </div>

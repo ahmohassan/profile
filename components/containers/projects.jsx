@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import {MdVisibility} from 'react-icons/md'
 // import Link from 'next/Link'
 const projects = () => {
   
@@ -59,9 +60,10 @@ const projects = () => {
                 
                 
                
-                 <button  className='bg-gray-900 hover:bg-white hover:text-gray-900 hover:shadow-lg rounded-lg m-4 py-2 px-8 font-bold ' >
-                <a  href={person.imageurl}>
-                   👀 View Details
+                 <button  className='flex justify-center items-center bg-gray-900 hover:bg-white hover:text-gray-900 hover:shadow-lg rounded-lg m-4 py-2 px-8 font-bold ' >
+                <MdVisibility className='w-8 h-8 mr-2' /> 
+                <a className=' font-bold '  href={person.imageurl}>
+                View Details
                 </a>
                  </button>
               </div>
