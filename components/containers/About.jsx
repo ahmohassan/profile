@@ -114,10 +114,10 @@ const About = () => {
     },[inView])
   return (
     <section  class="flex  my-20    md:my-36 p-2  flex-wrap md:flex-row items-center justify-center ">
-        <motion.div className='' whileHover={{}} whileInView={{opacity :[0,1.9]}}transitionTo={{duration :1 ,type:'tween',ease:'easeInOut'}}>
-            <img src={image} className="  " alt="" srcset="" />
+        <motion.div className='md:flex-1 md:m-1 m-6' whileHover={{}} whileInView={{opacity :[0,1.9]}}transitionTo={{duration :1 ,type:'tween',ease:'easeInOut'}}>
+            <img src={image} className="bg-cover bg-indigo p-1  " alt="" srcset="" />
         </motion.div>
-        <div className="flex-1 flex-col justify-start w-5/6 m-4 items-start  ">
+        <div className="flex-1 flex-col justify-start  m-4 items-start  ">
             <motion.div whileInView={{y:-20, transition:{duration:1, type:"keyframes" ,bounce:0.9}}} >
                 <h1 className='text-[24px] md:text-[42px] mb-3 font-bold'>Solving customer problems gives developers a morale boost</h1>
                 <motion.div whileInView={{y:-10, transition:{duration:2.5, type:"keyframes" ,bounce:0.9}}}>
@@ -126,7 +126,7 @@ const About = () => {
                     </p>
                 </motion.div>
             </motion.div>
-            <motion.div whileInView={{y:-25, transition:{duration:3, type:"keyframes" ,bounce:0.9}}} className="flex flex-col md:flex-row p-4  md:justify-around  md:p-5 rounded-lg mt-10  items-start  shadow-2xl shadow-indigo-500 bg-gradient-to-l  from-gray-900 to-indigo-800/5">
+            <motion.div whileInView={{y:-25, transition:{duration:3, type:"keyframes" ,bounce:0.9}}} className="flex flex-col md:flex-row p-4  md:justify-around  md:p-5 rounded-lg mt-10  items-start  shadow-2xl  shadow-black/100 bg-gradient-to-b  from-indigo-900 to-gray-900 backdrop:filter backdrop-blur-2xl hover:shadow-sm hover:shadow-black/75">
                 <div className='flex flex-col '>
                     <div className="flex flex-row items-center ">
                         <img src="/certification.png" className='w-8 mr-2' alt="" />

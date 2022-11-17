@@ -135,7 +135,7 @@ const sc ='/1.svg'
          </motion.div>
         </div>
         <motion.div animate={animation4} className="   ">
-        <img src={sc} className="bg-cover"  alt="" srcset="" />
+        <img src={sc} className="bg-cover p-4"  alt="" srcset="" />
           {/* <img src={images.hero} /> */}
         </motion.div>
      </section>
