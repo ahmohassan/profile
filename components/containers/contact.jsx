@@ -51,7 +51,7 @@ const contact = () => {
                 }
             </div>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      
+            <h1 className='text-center font-bold text-[4rem] md:text-[2rem] sm:text-[2rem]'>Get in Touch</h1>
             <p className="mt-8 lg:m-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Please fill out the contact form below to get in touch with me, and I will do my best to respond to you as soon as I can</p>
             <form ref={form} method='post' onSubmit={sendEmail} action="#" className="space-y-8">
             <div>
