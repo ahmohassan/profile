@@ -22,11 +22,11 @@ const services = () => {
     
       ]
   return (
-    <section className='flex flex-col md:p-16  justify-center items-center  bg-primary'>
+    <section id='Service' className='flex flex-col md:p-16  justify-center items-center  bg-primary'>
         {/* <img src={bgimage} alt="" srcset="" /> */}
-        <div className="text-center 6m- m-16">
-          <h1 className=' text-[2rem] md:mb-2 md:text-[4rem] font-bold'>our services</h1>
-          <p className='text-gray-200 my-4 font-thin'>
+        <div className="text-center mx-1 mb-8 mt-20">
+          <h1 className=' text-[2rem]  md:mb-2 md:text-[4rem] font-bold'>our services</h1>
+          <p className='text-gray-200 mt-4 font-thin'>
           Powerful web and mobile design that will out-perform your strongest competitors
           </p>
         </div>

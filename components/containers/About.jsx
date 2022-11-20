@@ -113,13 +113,13 @@ const About = () => {
       }
     },[inView])
   return (
-    <section  class="flex  my-20    md:my-36 p-2  flex-wrap md:flex-row items-center justify-center ">
-        <motion.div className='md:flex-1 md:m-1 m-6' whileHover={{}} whileInView={{opacity :[0,1.9]}}transitionTo={{duration :1 ,type:'tween',ease:'easeInOut'}}>
-            <img src={image} className="bg-cover bg-indigo p-1  " alt="" srcset="" />
+    <section id='About'  class="flex  my-2     md:my-36 p-2  flex-wrap md:flex-row items-center justify-center ">
+        <motion.div className='md:flex-1 md:m-1 mt-16' whileHover={{}} whileInView={{opacity :[0,1.9]}}transitionTo={{duration :1 ,type:'tween',ease:'easeInOut'}}>
+            <img src={image} className="bg-cover bg-indigo mt-10 p-1  " alt="" srcset="" />
         </motion.div>
         <div className="flex-1 flex-col justify-start  m-4 items-start  ">
             <motion.div whileInView={{y:-20, transition:{duration:1, type:"keyframes" ,bounce:0.9}}} >
-                <h1 className='text-[24px] md:text-[42px] mb-3 font-bold'>Solving customer problems gives developers a morale boost</h1>
+                <h1 className='text-[24px] md:text-[42px] mt-24 mb-3 font-bold'>Solving customer problems gives developers a morale boost</h1>
                 <motion.div whileInView={{y:-10, transition:{duration:2.5, type:"keyframes" ,bounce:0.9}}}>
                     <p>
                       At times, it can be frustrating having to deal with customers. However, many developers report getting a boost in morale when dealing with end users. They can see close up how customers are using their products and get real feedback from those who use products on a daily basis. Seeing how their work is being used gives them motivation to ‘do better’. 

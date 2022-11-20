@@ -35,8 +35,8 @@ const contact = () => {
   ]
   const form = useRef();
   return (
-    <section className="flex flex-col items-center justify-center bg-gradient-to-r from-gray-900 to-indigo-800">
-        <h2 className="m-8 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+    <section id='contact' className="flex flex-col items-center justify-center bg-gradient-to-r from-gray-900 to-indigo-800">
+        <h2 className="m-8 mt-24 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
         {/* <div className='flx-col m-4  '> */}
             <div className='flex flex-wrap justify-center md:flex-row items-center '>
                 {

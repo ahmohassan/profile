@@ -44,16 +44,16 @@ const projects = () => {
   ]
   const bgimage ='/bgWhite.png'
   return (
-    <section className='flex flex-col p-8  justify-center items-center  bg-gradient-to-l md:bg-gradient-to-r from-gray-900 to-indigo-800 '>
+    <section id='project' className='flex flex-col p-8  justify-center items-center  bg-gradient-to-l md:bg-gradient-to-r from-gray-900 to-indigo-800 '>
         {/* <img src={bgimage} alt="" srcset="" /> */}
-        <div className="text-center 6m- m-16">
-          <p className='text-gray-200 font-bold'>My projects</p>
-          <h1 className=' text-[4rem] font-bold'>Lastest projects</h1>
+        <div className="text-center  m-6 mt-24">
+          <p className='text-gray-200 font-bold '>My projects</p>
+          <h1 className=' text-[2rem] md:text-[4rem] font-bold'>Lastest projects</h1>
         </div>
         <motion.div    className='flex flex-wrap  items-center justify-center'>
         {
           data.map((person) =>(
-            <motion.div whileInView={{y:-25, transition:{duration:1, type:"keyframes" ,bounce:0.9}}} className='flex m-4  bg-primary rounded-xl border-b-4  border-l-4 border-indigo-700/75  hover:bg-transparent/50 hover:shadow-2xl hover:shadow-indigo-500/80'>
+            <motion.div whileInView={{y:-25, transition:{duration:1, type:"keyframes" ,bounce:0.9}}} className='flex m-4  bg-primary rounded-xl border-b-8  border-l-4 border-indigo-700/75  hover:bg-transparent/50 hover:shadow-2xl hover:shadow-indigo-500/80'>
               <div className='flex text-center m-4 md:justify-center flex-col  '>
                 <img src={person.imageurl} className=" bg-cover w-80 shado-2xl rounded-lg " alt="" srcset="" />
                 <h1 className='mt-6 text-2xl font-bold' >{person.name}</h1>
