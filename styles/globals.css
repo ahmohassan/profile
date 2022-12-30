@@ -10,10 +10,11 @@ body {
 }
 image, img{
   width: 100%;
+  max-width: 100%;
 }
 
 .im{
-  background-image: url('/bgWhite.png');
+  /* background-image: url('/bgWhite.png'); */
 }
 
 @media (prefers-color-scheme: dark) {

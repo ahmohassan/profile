@@ -5,11 +5,11 @@ import {MdVisibility} from 'react-icons/md'
 const projects = () => {
   
   const data = [
-    {
-      imageurl :'https://themeselection.com/wp-content/webpc-passthru.php?src=https://themeselection.com/wp-content/uploads/edd/2022/03/materio-react-github-banner.png&nocache=1',
-      name :'MATERIO ADMIN PAGE',
-      title :'https://themeselection.com/wp-content/webpc-passthru.php?src=https://themeselection.com/wp-content/uploads/edd/2022/03/materio-react-github-banner.png&nocache=1  '
-    },
+    // {
+    //   imageurl :'https://themeselection.com/wp-content/webpc-passthru.php?src=https://themeselection.com/wp-content/uploads/edd/2022/03/materio-react-github-banner.png&nocache=1',
+    //   name :'MATERIO ADMIN PAGE',
+    //   title :'https://themeselection.com/wp-content/webpc-passthru.php?src=https://themeselection.com/wp-content/uploads/edd/2022/03/materio-react-github-banner.png&nocache=1  '
+    // },
     {
       imageurl :'https://s3.amazonaws.com/creativetim_bucket/products/581/original/vision-ui-dashboard-free-react.png?1641889248',
       name :'REACT UI/UX',

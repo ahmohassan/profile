@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import {motion,useAnimation} from 'framer-motion'
 import {useInView} from 'react-intersection-observer'
 import styles from '../../styles/Home.module.css'
+import Image from 'next/image'
 import Link from 'next/link'
 function hero() {
 const sc ='/1.svg'
@@ -116,7 +117,7 @@ const sc ='/1.svg'
   },[inView])
   return (
     <>
-     <section id='home' ref={ref}  class={` flex py-16 pt-36 md:p-32 md:m-0 lg:m-0  flex-col-reverse md:flex-wrap justify-center items-center bg-gradient-to-r from-indigo-900 to-gray-900 ${styles.backgroundIMG}`}>
+     <section id='home' ref={ref}  class={` flex py-16 pt-36 md:p-32 md:m-0 lg:m-0  flex-col-reverse md:flex-wrap justify-center items-center bg-gradient-to-r from-indigo-900 to-gray-900 ${styles.backgroundRG}`}>
         <div className=" md:flex-auto flex-col mt-10 md:flex-col md:items-start m-4  ">
           <motion.div animate={animation}>
             <h1 className='text-[42px] md:text-[54px] font-bold'>👋Hello There</h1>
@@ -136,7 +137,8 @@ const sc ='/1.svg'
          </motion.div>
         </div>
         <motion.div animate={animation4} className="   ">
-        <img src={sc} className="bg-cover p-4"  alt="" srcset="" />
+        <Image src={sc} className="bg-cover p-4" alt=""  width={500}
+      height={500} />
           {/* <img src={images.hero} /> */}
         </motion.div>
      </section>
